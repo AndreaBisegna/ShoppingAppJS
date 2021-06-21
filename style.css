@@ -1,0 +1,92 @@
+*,
+*:before,
+*::after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-size: 15px;
+  font-family: "Roboto Slab", serif;
+  display: flex;
+  justify-content: center;
+  background-color: #1c1c1c;
+}
+
+html {
+  line-height: 1.6em;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+
+
+h1{
+    color: orange;
+    margin-bottom: 20px;
+}
+
+/*APP Layout */
+
+.main {
+  width: 500px;
+  height: auto;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.main input{
+    width: 250px;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 20;
+}
+
+
+
+.btn{
+    height: 40px;
+    background-color: #2596be;
+    color: ivory;
+    font-weight: bolder;
+    border-radius: 10px;
+}
+
+
+
+.items-style{
+    font-size: 20px;
+}
+
+.removeItemsBtn{
+    background-color:red;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+
+}
+
+.itemsBox{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin: 5px 40px;
+ border-bottom: 2px solid  #2596be;
+ color: orange;
+}
+
+@media(max-width: 400px){
+  .btn{
+    margin-top: 10px;
+  }
+}
+
